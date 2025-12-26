@@ -64,7 +64,7 @@ def main():
         client = gspread.authorize(creds)
 
         # Open spreadsheet
-        spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1MiKbS14cgbKEa00QIqX7jqms5PyFc-wru5iHm9EqTeM/edit'
+        spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1f7ZRIRJ5_cbnK4ZQPTL2uAn91zQeUy6cbCqeBliXjtQ/edit'
         sh = client.open_by_url(spreadsheet_url)
 
         # Collect dataframes
